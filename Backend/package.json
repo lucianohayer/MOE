@@ -1,0 +1,26 @@
+{
+   "name": "moe",
+   "version": "1.0.0",
+   "description": "",
+   "main": "app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app.js"
+   },
+   "author": "Luciano Hayer",
+   "license": "ISC",
+   "dependencies": {
+      "async": "^2.5.0",
+      "body-parser": "^1.17.0",
+      "cors": "^2.8.4",
+      "express": "^4.16.4",
+      "express-session": "^1.15.3",
+      "method-override": "^2.3.9",
+      "moment": "^2.18.1",
+      "mongoose": "^4.8.7",
+      "nodemon": "^1.11.0",
+      "passport": "^0.3.2",
+      "passport-local": "^1.0.0",
+      "passport-local-mongoose": "^4.0.0"
+   }
+}
